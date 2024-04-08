@@ -1,0 +1,21 @@
+ github token
+ 
+    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
+
+
+    git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nehalsalve07/Web-Destiny.git
+git push -u origin main
+
+
+
+echo "# Web-Destiny" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nehalsalve07/Web-Destiny.git
+git push -u origin main

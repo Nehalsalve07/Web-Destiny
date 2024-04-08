@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-body{
+    width: 100vw;
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between; 
+    background-color: black;
+
+    ul{
+        width: 50%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    a{
+        color: white;
+        text-transform: capitalize;
+    }
+}
+.body-1{
+    width: 100vw;
+    height: 200px;
+    background-color:  #000000;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .body-1-h1{
+        color: white;
+        font-size: 55px;
+        font-weight: 900;
+        /* border: 1px solid red; */
+    }
+    .body-1-span{
+        color: #ef5743;
+    }
+}
+.body-3{
+    width: 100vw;
+    /* border: 1px solid red; */
+    margin-bottom: 150px;
+}
+
+.body-3-main{
+    width: 85vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    
+}
+.body-3-l{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(48, 47, 47, 0.283);
+    box-shadow: 0px -5px 6px 0px rgba(100,93,93,0.65);
+}
+.body-3-l-top-1{
+    width: 100%;
+    height: 50%;
+    background-image: url(host.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid red; */
+}
+.body-3-l-top-2{
+    width: 100%;
+    height: 50%;
+    background-image: url(web\ design\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.body-3-l-top-3{
+    width: 100%;
+    height: 50%;
+    background-image: url(App\ devlopment.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.body-3-l-top-4{
+    width: 100%;
+    height: 50%;
+    background-image: url(maintenance\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.body-3-l-top-5{
+    width: 100%;
+    height: 50%;
+    background-image: url(Digital\ marketing\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.body-3-l-top-6{
+    width: 100%;
+    height: 50%;
+    background-image: url(Graphic\ Design\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-3-l-down-1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+.body-3-l-down-1-h1{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.body-3-l-down-1-p{
+    color: rgba(255, 255, 255, 0.482);
+    margin-bottom: 20px;
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 23px;
+
+}
+.body-3-l-down-1-button{
+    width: 110px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border: none ;
+    margin-left: -5px;
+}
+.body-3-l-down-1-button:hover{
+    color: #ef5743;
+}
+.out-box-button{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.743);
+    font-size: 15px;
+}
+.out-box-button:hover{
+    color: #ef5743;
+}
+footer{
+    width: 100vw;
+    height: 410px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-1{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.footer-2{
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.footer-2-h3{
+    color: white;
+    margin-top: 60px;
+   font-weight: 100;
+   margin-bottom: 50px;
+}
+.footer-2-h6{
+    color: rgba(255, 255, 255, 0.702);
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.footer-2-h6:hover{
+    color: #ef5743;
+}   
+.a1{
+    color: rgba(255, 255, 255, 0.702);
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.a1:hover{
+    color: #ef5743;
+}   
+.footer-3{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.footer-4{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.footer-5{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.footer-1-p{
+    color: rgba(255, 255, 255, 0.702);
+    font-size: 16px;
+    word-spacing: 1px;
+    line-height: 23px;
+    margin-left: 30px;
+}
+hr{
+    width: 92%;
+    margin-left: 72px;
+}
+.designer-name{
+    width: 100vw;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+.designer-name-h5{
+    color: white;
+    text-align: right;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    background-image: url(whatsapp.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(128,128,128,0.75);
+    position: absolute;
+    top: 640px;
+    left: 10px;
+    position: fixed;
+}
