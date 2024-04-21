@@ -74,6 +74,44 @@
         height: 200px;
     }
 }
+.main-body-img{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+
+}
+ .animation{
+    /* border: 1px solid red; */
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in;
+    transition: 0.5s;
+    position: relative;
+ }  
+ .animation:hover{
+    transform: scale(1.1,1.1);
+   }
+@keyframes logo{
+    from {
+        margin-right: 0;
+     }
+     to {
+        margin-right: 40%;
+     }
+}
+@media (max-width:768px){
+    @keyframes logo{
+        from {
+           margin-right: 0;
+        }
+        to {
+           margin-right: 25%;
+        }
+    }
+}
 .main-body-h1{
     color: rgb(255, 255, 255);
     font-size: 65px;
