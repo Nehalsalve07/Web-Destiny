@@ -264,8 +264,7 @@
         height: 300px;
     }
     .body-2-main-r{
-        margin-top: 50px;
-        
+        margin-top: 50px; 
     }
 
 }
@@ -300,15 +299,30 @@
     font-size: 35px;
     margin-bottom: 10px;
 }
+@media (max-width:768px){
+    .body-2-main-r-1-h3{
+       margin-left: 20px;
+    }
+}
 .body-2-main-r-1-h1{
     color: white;
     margin-bottom: 10px;
     font-size: 40px;
 }
+@media (max-width:768px){
+    .body-2-main-r-1-h1{
+       margin-left: 20px;
+    }
+}
 .body-2-main-r-1-h1-{
     color: #ef5743;
     margin-bottom: 20px;
     font-size: 40px;
+}
+@media (max-width:768px){
+    .body-2-main-r-1-h1-{
+       margin-left: 20px;
+    }
 }
 .body-2-main-r-1-p{
     color: rgba(255, 255, 255, 0.482);
@@ -317,7 +331,11 @@
     font-size: 15px;
     word-spacing: 1px;
     line-height: 23px;
-
+}
+@media (max-width:768px){
+    .body-2-main-r-1-p{
+       margin-left: 20px;
+    }
 }
 .body-2-main-r-1-button{
     width: 170px;
@@ -327,6 +345,11 @@
     border-radius: 25px;
     border: 2px solid white;
     color: white;
+}
+@media (max-width:768px){
+    .body-2-main-r-1-button{
+       margin-left: 20px;
+    }
 }
 .body-2-main-r-1-button:hover{
     color: #ef5743;
@@ -1061,5 +1084,4 @@ hr{
        position: fixed;
     }
 }
-
 
